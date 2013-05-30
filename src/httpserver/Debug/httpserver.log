@@ -1,0 +1,65 @@
+﻿生成启动时间为 2013/5/26 21:02:14。
+     1>项目“C:\Users\Darkscope\Desktop\计算机网络\http\httpserver\httpserver.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\httpserver.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt httpserver.cpp server.cpp
+         httpserver.cpp
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(59): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(62): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(120): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(124): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(154): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(170): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(208): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
+         server.cpp
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(59): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(62): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(120): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(124): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(154): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(170): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\response.h(208): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkscope\desktop\计算机网络\http\httpserver\server.cpp(26): warning C4101: “sClient”: 未引用的局部变量
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Darkscope\Desktop\计算机网络\http\Debug\httpserver.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\httpserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Darkscope\Desktop\计算机网络\http\Debug\httpserver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Darkscope\Desktop\计算机网络\http\Debug\httpserver.lib" /MACHINE:X86 Debug\httpserver.exe.embed.manifest.res
+         Debug\httpserver.obj
+         Debug\server.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\httpserver.exe.embed.manifest" /manifest Debug\httpserver.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         httpserver.vcxproj -> C:\Users\Darkscope\Desktop\计算机网络\http\Debug\httpserver.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\httpserver.unsuccessfulbuild”。
+         正在对“Debug\httpserver.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Darkscope\Desktop\计算机网络\http\httpserver\httpserver.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.32
